@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Date Inputs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @date_inputs.each do |date_input| %>
+      <tr>
+        <td><%= date_input.date %></td>
+        <td><%= link_to 'Show', date_input %></td>
+        <td><%= link_to 'Edit', edit_date_input_path(date_input) %></td>
+        <td><%= link_to 'Destroy', date_input, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Date Input', new_date_input_path %>
