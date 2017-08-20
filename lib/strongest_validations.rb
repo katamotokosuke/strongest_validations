@@ -1,3 +1,2 @@
-module StrongestValidations
-  # Your code goes here...
-end
+require 'strongest_validations/version'
+require 'strongest_validations/string_date_validator'
