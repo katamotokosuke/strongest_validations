@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "strongest_validations"
   s.version     = StrongestValidations::VERSION
   s.authors     = ["katamoto kosuke local"]
-  s.email       = ["katamotokosuke@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of StrongestValidations."
-  s.description = "TODO: Description of StrongestValidations."
+  s.email       = ["katamotokosuke0605@gmail.com"]
+  s.homepage    = "https://github.com/katamotokosuke/strongest_validations"
+  s.summary     = "StrongestValidations."
+  s.description = "Description of StrongestValidations."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
