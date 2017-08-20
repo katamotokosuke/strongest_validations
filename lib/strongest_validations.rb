@@ -1,0 +1,3 @@
+module StrongestValidations
+  # Your code goes here...
+end
