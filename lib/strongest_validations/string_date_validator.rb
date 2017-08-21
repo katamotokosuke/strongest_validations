@@ -3,7 +3,7 @@ module ActiveModel
     class StringDateValidator < ActiveModel::EachValidator
 
       def validate_each(record, attr_name, value)
-        record.errors.add(attr_name, "不正な値です", options) if !str_date_valid?(value)
+        record.errors.add(attr_name, :string_date, options) if !str_date_valid?(value)
       end
 
       private 
