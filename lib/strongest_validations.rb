@@ -1,6 +1,9 @@
 require 'strongest_validations/version'
 require 'strongest_validations/string_date_validator'
 
-#todo
-require 'active_support/i18n'
-I18n.load_path += Dir[File.dirname(__FILE__) + '/strongest_validations/locales/*.{rb,yml}']
+
+require 'active_support'
+#i18n
+ActiveSupport.on_load(:i18n) do 
+	I18n.load_path << File.expand_path("strongest_validations/locales/en.yml", __dir__)
+end
