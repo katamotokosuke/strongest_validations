@@ -1,4 +1,4 @@
-# StrongestValidations
+# StrongestValidations [![Build Status](https://travis-ci.org/katamotokosuke/strongest_validations.svg?branch=master)](https://travis-ci.org/katamotokosuke/strongest_validations)
 Short description and motivation.
 
 ## Usage
