@@ -6,12 +6,12 @@ module ActiveModel
         record.errors.add(attr_name, :string_date, options) if !str_date_valid?(value)
       end
 
-      private 
+      private
       def str_date_valid?(str_date)
         return begin
           str_date.in_time_zone
           true
-        rescue => e
+        rescue
           false
         end
       end

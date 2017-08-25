@@ -7,7 +7,7 @@ require "strongest_validations/version"
 Gem::Specification.new do |s|
   s.name        = "strongest_validations"
   s.version     = StrongestValidations::VERSION
-  s.authors     = ["katamoto kosuke local"]
+  s.authors     = ["katamoto kosuke"]
   s.email       = ["katamotokosuke0605@gmail.com"]
   s.homepage    = "https://github.com/katamotokosuke/strongest_validations"
   s.summary     = "StrongestValidations."
